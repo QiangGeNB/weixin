@@ -4,33 +4,31 @@
     {
       "user_id": 123541, //openid
       "user_name": "chenlong",
+      "user_student_id":"S201607044",
       "user_phone": "13263135237",
       "user_avatar": "头像图片的url",
-      "user_activities": [
-        1,
-        2,
-        3
-      ], //存放【活动信息表】的id
-      "user_my_activities": [
-        1,
-        2,
-        3
-      ] //用户发起的活动，存放【活动信息表】id
+      "user_activities": [1,2,3], //存放【活动信息表】的id
+      "user_my_activities": [1,2,3] //用户发起的活动，存放【活动信息表】id
     }
   ],
   //现有活动列表--------------------------------------------------------------
-  "businesses": [
+  /*"businesses": [
     {
       "bus_id": 1,
       "bus_avatar": "活动头像url",
       "bus_introduce": { //活动的介绍
         "bus_name": "鼎福射箭馆",
         "bus_location": "平乐园十字路口",
-        "bus_discount": ["满5减50","满10减100"],
+        "bus_info":"介绍",
+        "bus_discount": [{
+          "5":50,
+          "10":100
+        }],
         "bus_phone": "13263135237"
       }
     }
   ],
+  */
   //用户发起的活动列表---------------------------------------------------------
   "activities": [
     {
