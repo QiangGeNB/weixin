@@ -1,0 +1,34 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/test/test",
+    "pages/index/activities_template/activities_template"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "rgb(119,195,79)",
+    "navigationBarTitleText": "EasyGo 印迹",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#228B22",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "EG活动",
+        "iconPath": "/image/icon/toolbar/recommend.png",
+        "selectedIconPath": "/image/icon/toolbar/recommend_select.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "/image/icon/toolbar/mine.png",
+        "selectedIconPath": "/image/icon/toolbar/mine_select.png"
+      }
+    ]
+  }
+}

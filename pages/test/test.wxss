@@ -1,0 +1,11 @@
+/* pages/test/test.wxss */
+.test{
+width: 100vw;
+background-color: gray;
+}
+.test2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -50%;
+}

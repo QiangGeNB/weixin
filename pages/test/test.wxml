@@ -1,0 +1,4 @@
+<view class="test" style="height: {{haha}}px">
+<view class="test2">123</view>
+<view class="test3"></view>
+</view>

@@ -1,0 +1,93 @@
+.act_template_all {
+  display: flex;
+  margin: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.act_img {
+  flex: 0 0 80px;
+  width: 80px;
+  height: 80px;
+  border-radius: 500px;
+  box-shadow: -10px 15px 10px grey;
+}
+
+.content {
+  flex: 1;
+  overflow: hidden;
+}
+
+.act_info {
+  position: relative;
+  margin-left: 10px;
+  padding: 5px 5px 5px 8px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: #f0f2f7;
+}
+
+.act_info::before {
+  position: absolute;
+  left: -8px;
+  top: 34px;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #f0f2f7;
+  border-bottom: 10px solid transparent;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.originact_originator {
+  margin-bottom: 5px;
+}
+
+.ori_avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  vertical-align: text-top;
+  margin-right: 5px;
+}
+
+.nickname {
+  font-size: 12px;
+}
+
+.date{
+  font-size: 12px;
+}
+.act_time {
+  text-decoration: underline;
+}
+
+.act_status {
+  margin-bottom: 5px;
+}
+
+.min {
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.max {
+  display: inline-block;
+  font-size: 10px;
+}
+
+.now {
+  font-size: 10px;
+}
+
+.now_num {
+  color: crimson;
+  font-weight: bold;
+}
