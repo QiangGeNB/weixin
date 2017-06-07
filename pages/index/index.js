@@ -1,13 +1,13 @@
 // pages/index/index.js
+var local_data = require('../../data/data_mock.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    item:{
-      name:"chenlong"
-    }
+    activities : local_data.data.activities
   },
 
   /**

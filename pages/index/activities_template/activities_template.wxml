@@ -1,20 +1,21 @@
 <template name="act_template">
   <view class="act_template_all">
-    <image src="/image/other/shejian.jpg" class="act_img"></image>
+    <image src="{{act_avatar}}" class="act_img"></image>
     <view class="content">
       <view class="act_info">
-        <view class="title">有没有人一起来射箭啊哈哈哈</view>
+        <view class="title">{{act_name}}</view>
         <view class="originact_originator">
-          <image src="/image/other/shejian.jpg" class="ori_avatar"></image>
-          <text class="nickname">chenlong</text>
+          <text style="font-size : 10px">发起人：</text>
+          <image src="{{act_originator.ori_avatar}}" class="ori_avatar"></image>
+          <text class="nickname">{{act_originator.ori_name}}</text>
         </view>
         <view class="date">
-          活动时间：<text class="act_time">6月5日 晚8：00</text>
+          活动时间：<text class="act_time">{{act_date._date}} {{act_date.time}}</text>
         </view>
         <view class="act_status">
-          <view class="min"> 最少人数：5人</view>
-          <view class="max">期望人数：10人</view>
-          <view class="now">现有人数：<text class="now_num">6人</text></view>
+          <view class="min"> 最少人数：{{member.min}}人</view>
+          <view class="max">期望人数：{{member.max}}人</view>
+          <view class="now">现有人数：<text class="now_num">{{member.now}}人</text></view>
         </view>
       </view>
     </view>
