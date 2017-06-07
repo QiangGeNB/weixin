@@ -45,10 +45,6 @@
   margin-bottom: 5px;
 }
 
-.originact_originator {
-  margin-bottom: 5px;
-}
-
 .ori_avatar {
   width: 20px;
   height: 20px;
@@ -62,7 +58,7 @@
 }
 
 .date{
-  font-size: 12px;
+  font-size: 10px;
 }
 .act_time {
   text-decoration: underline;

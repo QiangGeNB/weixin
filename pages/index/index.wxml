@@ -1,3 +1,7 @@
 <import src="/pages/index/activities_template/activities_template.wxml" />
-<text>EasyGo，让你做更好的自己</text>
-<template is="act_template" data="{{...item}}"/>
+
+<block wx:for="{{activities}}" wx:for-item="item" wx:for-index="index">
+  <view class="classname">
+    <template is="act_template" data="{{...item}}" />
+  </view>
+</block>
