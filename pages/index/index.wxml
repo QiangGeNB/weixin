@@ -1,7 +1,7 @@
 <import src="/pages/index/activities_template/activities_template.wxml" />
 
-<block wx:for="{{activities}}" wx:for-item="item" wx:for-index="index">
-  <view class="classname">
+<block wx:for="{{activities}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+  <view id="act_item" catchtap="enter_act_detail" data-act_id="{{item.act_id}}">
     <template is="act_template" data="{{...item}}" />
   </view>
 </block>

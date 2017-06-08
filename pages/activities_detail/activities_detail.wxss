@@ -1,0 +1,9 @@
+/* pages/activities_detail/activities_detail.wxss */
+.slide-image{
+    width: 100%;
+}
+.join-div{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
